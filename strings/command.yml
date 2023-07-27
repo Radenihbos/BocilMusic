@@ -5,7 +5,7 @@ HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["status"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -48,7 +48,7 @@ DELSUDO_COMMAND : ["delsudo", "rmsudo"]
 SUDOUSERS_COMMAND : ["sudolist", "listsudo"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast", "gcast"]
+BROADCAST_COMMAND : ["guejomblo", "gcast"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat", "blchat"]
@@ -91,8 +91,8 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice", "activevc"]
-ACTIVEVIDEO_COMMAND : ["activevideo", "activev"]
+ACTIVEVC_COMMAND : ["vc", "activevc"]
+ACTIVEVIDEO_COMMAND : ["vcs", "activev"]
 
 #Gban Commands
 GBAN_COMMAND : ["gban"]
